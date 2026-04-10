@@ -2077,14 +2077,15 @@ body {
 
 .profile-card_status-dot {
 	position: absolute;
-	bottom: 12px;
-	right: 12px;
-	width: 18px;
-	height: 18px;
-	background-color: var(--online-green);
-	border: 3px solid white;
-	border-radius: 50%;
+    bottom: 17px;
+    right: 13px;
+    width: 18px;
+    height: 18px;
+    background-color: var(--online-green);
+    border: 3px solid white;
+    border-radius: 50%;
 }
+
 
 .profile-card_name {
 	font-size: 32px;
