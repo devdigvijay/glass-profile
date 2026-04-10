@@ -11,137 +11,13 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="apple-touch-icon" sizes="180x180" href="./images/favicon_io/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon_io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./images/favicon_io/favicon-16x16.png">
+	<link rel="manifest" href="./images/favicon_io/site.webmanifest">
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
-	 <style>
-        :root {
-            --primary-purple: #8a2be2;
-            --text-dark: #2d3436;
-            --text-gray: #636e72;
-            --online-green: #2ecc71;
-        }
-
-        body {
-            background-color: #f0f2f5;
-            font-family: 'Inter', -apple-system, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 0;
-        }
-
-        .profile-card {
-            background: white;
-            width: auto;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            padding-bottom: 40px;
-			margin-bottom: 1.5rem
-        }
-
-        .profile-card_header-banner {
-            height: 20rem;
-            /* Using a placeholder landscape image similar to the original */
-            background-image: url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80');
-            background-size: cover;
-            background-position: center;
-        }
-
-        .profile-card_profile-content {
-            margin-top: -70px;
-            /* Pulls content up to overlap banner */
-        }
-
-        .profile-card_avatar-container {
-            position: relative;
-            display: inline-block;
-            margin-bottom: 20px;
-        }
-
-        .profile-card_avatar {
-            width: 130px;
-            height: 130px;
-            border-radius: 50%;
-            border: 5px solid white;
-            object-fit: cover;
-        }
-
-        .profile-card_status-dot {
-            position: absolute;
-            bottom: 12px;
-            right: 12px;
-            width: 18px;
-            height: 18px;
-            background-color: var(--online-green);
-            border: 3px solid white;
-            border-radius: 50%;
-        }
-
-        .profile-card_name {
-            font-size: 32px;
-            font-weight: 600;
-            color: var(--text-dark);
-            margin: 0 0 12px 0;
-        }
-
-        .profile-card_title {
-            color: var(--primary-purple);
-            font-size: 18px;
-            font-weight: 500;
-            margin: 0 0 15px 0;
-        }
-
-        .profile-card_location {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
-            color: var(--text-dark);
-            font-size: 18px;
-        }
-
-        .profile-card_pin-icon {
-            width: 20px;
-            height: 20px;
-            color: var(--text-gray);
-        }
-		/* Contact Info */
-		.divider {
-  border: 0;
-  border-top: 1px solid #eee;
-  margin: 25px 40px;
-}
-
-.contact-info {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  align-items: center;
-}
-
-.contact-item {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  color: var(--text-gray);
-  font-size: 15px;
-  transition: color 0.2s ease;
-}
-
-.contact-item:hover {
-  color: var(--primary-purple);
-  cursor: pointer;
-}
-
-.contact-icon {
-  width: 18px;
-  height: 18px;
-  opacity: 0.7;
-}
-    </style>
 </head>
 
 <body class="is-preload">
@@ -196,19 +72,20 @@
 												    border: 1px solid rgba(247, 242, 242, 0.76);
 												">
 					<div class="profile-card_header-banner"></div>
-				
+
 					<div class="profile-card_profile-content">
 						<div class="profile-card_avatar-container">
 							<img src="./images/about-photo.png?auto=format&fit=crop&w=300&q=80" alt="Digvijay Patil"
 								class="profile-card_avatar">
 							<span class="profile-card_status-dot"></span>
 						</div>
-				
+
 						<h1 class="profile-card_name">Digvijay Patil</h1>
 						<p class="profile-card_title">DevOPS & Software Engineer</p>
-				
+
 						<div class="profile-card_location">
-							<svg class="profile-card_pin-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+							<svg class="profile-card_pin-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+								stroke-width="2">
 								<path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
 								<circle cx="12" cy="10" r="3"></circle>
 							</svg>
@@ -216,20 +93,23 @@
 						</div>
 					</div>
 					<hr class="divider">
-				
+
 					<div class="contact-info">
 						<div class="contact-item">
-							<svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+							<svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+								stroke-width="2">
 								<path
 									d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
 								</path>
 							</svg>
 							<a href="tel:+919118591919">+91 (911) 859-1919</a>
 						</div>
-				
+
 						<div class="contact-item">
-							<svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-								<path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+							<svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+								stroke-width="2">
+								<path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+								</path>
 								<polyline points="22,6 12,13 2,6"></polyline>
 							</svg>
 							<a href="mailto:hello@devdigvijay.com">hello@devdigvijay.com</a>
@@ -264,9 +144,10 @@
   				  padding: 1rem;
 				  gap: 16px;
 				  justify-content: center;">
-					<a href="./assets/DigvijayPatilResume.docx" class="button icon fa-download" download>Download Resume</a>
+					<a href="./assets/DigvijayPatilResume.docx" class="button icon fa-download" download>Download
+						Resume</a>
 				</section>
-				
+
 			</article>
 
 			<!-- Skills -->
