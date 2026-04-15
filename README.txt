@@ -13,7 +13,7 @@ Professional profile and contact information.
 Feel free to reach out for collaborations or inquiries:
 
 * **Mobile:** [+91 (911) 859-1919](tel:+919118591919)
-* **Email:** [elena.marsh@design.com](mailto:hello@devdigvijay.com)
+* **Email:** [hello@devdigvijay.com](mailto:hello@devdigvijay.com)
 * **Website:** [devdigvijay.com](https://www.devdigvijay.com)
 
 ---
